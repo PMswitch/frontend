@@ -19,7 +19,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-slate-600 dark:text-slate-400 mb-4 max-w-md">
-              A zero-config CLI tool that detects a project's package manager and proxies commands to the correct one.
+              A zero-config CLI tool that detects a project&apos;s package manager and proxies commands to the correct one.
             </p>
             <div className="flex gap-4">
               <Link 

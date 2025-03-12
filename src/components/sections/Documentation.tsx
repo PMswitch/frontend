@@ -104,7 +104,7 @@ const Documentation = () => {
                   <h3 className="text-lg font-semibold">Project Configuration</h3>
                 </div>
                 <p className="mb-4 text-slate-600 dark:text-slate-400">
-                  Add a <code className="bg-slate-100 dark:bg-slate-700 px-1 py-0.5 rounded text-pink-500">pmswitchConfig</code> section to your project's <code className="bg-slate-100 dark:bg-slate-700 px-1 py-0.5 rounded text-pink-500">package.json</code> file:
+                  Add a <code className="bg-slate-100 dark:bg-slate-700 px-1 py-0.5 rounded text-pink-500">pmswitchConfig</code> section to your project&apos;s <code className="bg-slate-100 dark:bg-slate-700 px-1 py-0.5 rounded text-pink-500">package.json</code> file:
                 </p>
                 
                 <div className="relative">
@@ -131,7 +131,7 @@ const Documentation = () => {
                 <div className="mt-6">
                   <h4 className="font-medium text-blue-500">Project-specific Settings</h4>
                   <p className="mt-2 text-slate-600 dark:text-slate-400">
-                    Project-specific settings override global settings, allowing you to customize PMSwitch's behavior on a per-project basis. This is especially useful for teams with different package manager preferences.
+                    Project-specific settings override global settings, allowing you to customize PMSwitch&apos;s behavior on a per-project basis. This is especially useful for teams with different package manager preferences.
                   </p>
                 </div>
               </div>
