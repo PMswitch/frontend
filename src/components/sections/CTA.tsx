@@ -19,7 +19,7 @@ const CTA = () => {
             Ready to <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500">Simplify</span> Your Workflow?
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto">
-            Say goodbye to manually switching between package managers. Try PMSwitch today and experience seamless package management across all your projects.
+            Say goodbye to manually switching between package managers in different projects. Try PMSwitch today and experience seamless package management across all your projects.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -19,7 +19,7 @@ const Hero = () => {
               PMSwitch
             </h1>
             <p className="text-xl md:text-2xl text-slate-700 dark:text-slate-300 mb-8 leading-relaxed">
-              A zero-config CLI tool that detects a project&apos;s package manager and proxies commands to the correct one. Say goodbye to manually switching between package managers!
+              A zero-config CLI tool that detects a project&apos;s package manager (pnpm, yarn, npm, bun) by analyzing lockfiles and proxies commands to the correct package manager. Say goodbye to manually switching between package managers in different projects!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#installation">

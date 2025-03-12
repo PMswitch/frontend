@@ -38,13 +38,10 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between max-w-7xl">
-        <Link href="/" className="flex items-center gap-3 mr-8">
-          <div className="relative w-10 h-10 flex items-center justify-center rounded-full bg-white dark:bg-slate-800 shadow-sm overflow-hidden">
-            <Image src="/assets/icon.png" alt="PMSwitch Logo" width={36} height={36} className="object-contain" />
+        <Link href="/" className="flex items-center mr-8">
+          <div className="relative h-12 flex items-center justify-center overflow-hidden">
+            <Image src="/assets/logo.png" alt="PMSwitch Logo" width={120} height={44} className="object-contain" />
           </div>
-          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-pink-500">
-            PMSwitch
-          </span>
         </Link>
 
         {/* Desktop Navigation */}

@@ -118,6 +118,21 @@ Progress: resolved 2, reused 2, downloaded 0, added 2, done"
 
 Starting the development server..."
               />
+              
+              <UsageExample 
+                command="pms exec cowsay Hello" 
+                description="Execute npx-style commands (works across all package managers)."
+                output="🔍 Detected package manager: pnpm
+📦 Running: pnpm exec cowsay Hello
+ _______ 
+< Hello >
+ ------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||"
+              />
             </div>
           </motion.div>
           

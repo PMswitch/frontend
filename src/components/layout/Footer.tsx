@@ -10,13 +10,10 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="relative w-8 h-8 flex items-center justify-center rounded-full bg-white dark:bg-slate-800 shadow-sm overflow-hidden">
-                <Image src="/assets/icon.png" alt="PMSwitch Logo" width={28} height={28} className="object-contain" />
+            <Link href="/" className="flex items-center mb-4">
+              <div className="relative h-10 flex items-center justify-center overflow-hidden">
+                <Image src="/assets/logo.png" alt="PMSwitch Logo" width={100} height={36} className="object-contain" />
               </div>
-              <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-pink-500">
-                PMSwitch
-              </span>
             </Link>
             <p className="text-slate-600 dark:text-slate-400 mb-4 max-w-md">
               A zero-config CLI tool that detects a project&apos;s package manager and proxies commands to the correct one.
